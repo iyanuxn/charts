@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    margin: 5vw;
+}
+
+.card {
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.head {
+    width: auto;
+    height: auto;
+    padding: 7vw;
+    border-radius: 4vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.body {
+    width: auto;
+    height: auto;
+    padding: 5vw;
+    margin-top: 5vw;
+    border-radius: 4vw;
+    background-color: hsl(33, 100%, 98%);
+}
+
+.bal {
+    color: white;
+    font-size: 1.22em;
+}
+
+.acc {
+    font-size: 1.5em;
+    line-height: 5vh;
+    font-weight: 600;
+}
+
+.stat {
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.bar {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.line {
+    height: 0.3vw;
+    width: 100%;
+    background-color: hsl(27, 66%, 92%);
+    border-radius: 10vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(25, 47%, 15%);
+    font-size: 0.8em;
+    margin-top: 5vw;
+}
+
+.spent {
+    font-weight: 700;
+    font-size: 1.9em;
+    line-height: 5vh;
+}
+
+.percent {
+    font-weight: 700;
+    line-height: 4vh;
+    font-size: 1.3em;
+
+}
+
+/* desktop display */
+@media (min-width: 769px) {
+    .card {
+        margin-top: 0;
+    }
+
+    .head {
+        width: 30vw;
+        padding: 2vw;
+        border-radius: 2vw;
+        margin: auto;
+    }
+
+    .body {
+        width: 30vw;
+        padding: 2vw;
+        border-radius: 2vw;
+        margin: auto;
+        margin-top: 1vw;
+    }
+
+    .acc {
+        line-height: 6vh;
+    }
+
+    .bar {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .footer {
+        margin-top: 1vw;
+    }
+}
